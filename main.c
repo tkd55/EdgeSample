@@ -76,7 +76,8 @@ int main (int argc, const char * argv[])
             //「s」or「S」：画像の保存
             case 83:
             case 115:
-                cvSaveImage("/Users/takeda/Desktop/xxxx.jpg", outEdge, 0);
+                // 画像の保存場所の指定
+                cvSaveImage("/Users/tkd55/Desktop/xxxx.jpg", outEdge, 0);
                 break;
                 
             default:
